@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: none;
+}
+
+.first-body {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, orange, yellow);
+  color: black;
+  padding: 50px;
+  align-items: center;
+  height: 10px;
+}
+
+nav > ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.second-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.third-body {
+  border-block: 2px solid rgb(202, 202, 207);
+  padding: 30px;
+  justify-content: space-between;
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.third-body > div {
+  display: flex;
+  gap: 50px;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.third-body > div > a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: black;
+  border-bottom: 20px;
+}
+
+.fourth-body {
+  padding: 20px;
+  width: 50%;
+  font-size: larger;
+}
+
+.fifth-body {
+  display: flex;
+}
+
+.fifth-body div {
+  width: 30%;
+  box-shadow: 0 0 8px gray;
+  border-left: 5px solid orange;
+  padding: 40px;
+  border-radius: 5px;
+  font-size: larger;
+  margin-left: 30px;
+  color: black;
+}
+
+.background {
+  background-image: url(./../deliveryphoto.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.track {
+  padding-top: 90px;
+  /* text-align: center; */
+  color: white;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.track > input {
+  margin-top: 20px;
+  width: 100%;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.track > button {
+  position: absolute;
+  background: red;
+  color: white;
+  font-weight: bolder;
+  border: transparent;
+  width: 130px;
+  right: 8px;
+  bottom: 6px;
+  padding: 18px;
+}
+
+.threebody {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%, 5%);
+
+  width: fit-content;
+  align-items: flex-end;
+  display: flex;
+  color: black;
+}
+
+.threebody > div {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+}
+
+.threebody > div:hover {
+    z-index: 2;
+    box-shadow: 9px 10px 20px rgb(156, 153, 153);
+}
+
+.biz {
+  height: 200px !important ;
+}
+
+#code ~ p {
+  display: none;
+}
+#code:user-invalid ~ p {
+  display: inline-block;
+}
+
+.biz {
+  padding: 30px;
+  height: 200px;
+}
+
+.hold-all {
+  width: 95%;
+  border-radius: 5px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+   
+.documentall {
+  padding: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid rgb(245, 241, 241);
+}
+
+.documentall h1 {
+  margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.documentall p {
+  margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.all-line {
+  width: 80px;
+  height: 4px;
+  background-color: black;
+  border-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.documentall h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.flex-two {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px groove rgb(206, 200, 200);
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: larger;
+  background-color: rgb(244, 239, 239);
+}
+
+.flex-two h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.gap-four {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 80px;
+  width: 100%;
+}
+
+.gap-five {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.button-all {
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: transparent;
+}
+
+.my-image{
+width: 50%;
+height: 100%;
+}
+
+.my-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hold-everything{
+  width: 95%;
+  border-radius: 5px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+.allmy-image{
+  width: 50%;
+  height: 100%;
+}
+
+.allmy-image > img{
+  width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.ship-all{
+  padding: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid rgb(245, 241, 241);
+}
+
+.ship-all{
+  /* margin-bottom: 50px; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .ship-all p{
+    margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  }
+
+  .my-lineall{
+    width: 80px;
+  height: 4px;
+  background-color: black;
+  border-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-everything{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px groove rgb(206, 200, 200);
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: larger;
+  background-color: rgb(244, 239, 239);
+}
+
+.flex-seven{
+  padding: 50px;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px groove rgb(206, 200, 200);
+  margin-bottom: 20px;
+  font-size: larger;
+  background-color: rgb(244, 239, 239);
+}
+
+.gap-seven{
+  margin-bottom: 40px;
+  display: flex;
+  gap: 100px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.gap-eight{
+  margin-bottom: 40px;
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-two{
+  width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border: transparent;
+}
+
+.the-flex{
+  display: flex;
+  margin-left: 20px;
+  }
+
+  .pen-all{
+    width: 50%;
+    font-size: larger;
+    margin-top: 7px;
+    padding: 20px;
+  }
+
+  .flex-me-all{
+   border: 5px solid gainsboro;
+   border-radius: 5px;
+   margin-bottom: 20px;
+  }
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot > div {
+  width: 350px;
+}
+
+.foot > div > a {
+  display: grid;
+  margin-bottom: 10px;
+  padding: 15px;
+  color: inherit;
+  font-size: larger;
+}
+.foot > div > a:hover {
+  text-decoration: underline;
+}
+
+.social-media{
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: ghostwhite;
+}
+
+.parcel-group{
+  display: flex;
+  gap: 900px;
+}
+
+.social-media > div > a {
+  font-size: larger;
+  color: inherit;
+  margin: 5px;
+}
+
+.social-media > div > a:hover{ 
+  text-decoration: underline;
+} 
+
+.reserved{
+  text-align: center;
+  font-size: larger;
+}
+
